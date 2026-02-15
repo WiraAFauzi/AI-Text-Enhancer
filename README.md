@@ -76,7 +76,7 @@ Enhances or transforms text based on the specified mode.
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-text-enhancer.git
+git clone https://github.com/WiraAFauzi/AI-Text-Enhancer.git
 cd ai-text-enhancer
 ```
 

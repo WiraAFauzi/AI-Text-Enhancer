@@ -6,6 +6,20 @@ The system is designed with production-ready architecture, including Docker cont
 
 ---
 
+## Live Demo
+
+Public API Documentation (Swagger UI):
+
+https://ai-text-enhancer-j4sb.onrender.com/docs
+
+Health Check Endpoint:
+
+https://ai-text-enhancer-j4sb.onrender.com/
+
+You can test the `/generate` endpoint directly from the Swagger interface without installing anything locally.
+
+---
+
 ## Features
 
 - FastAPI-based REST API
@@ -15,7 +29,8 @@ The system is designed with production-ready architecture, including Docker cont
 - Docker container support
 - Environment variable configuration
 - Automatic API documentation via Swagger UI
-- Deployable to cloud platforms (Render, Fly.io, Railway, etc.)
+- Public cloud deployment on Render
+- Fully containerized microservice architecture
 
 ---
 
@@ -26,7 +41,7 @@ Client → FastAPI → AI Service Layer → OpenAI API (or Mock Mode)
              ↓
           Docker Container
              ↓
-         Cloud Deployment
+         Cloud Deployment (Render)
 ```
 
 ---
@@ -188,7 +203,11 @@ ai-text-enhancer/
 
 ## Deployment
 
-This service can be deployed on:
+This service is currently deployed on Render:
+
+https://ai-text-enhancer-j4sb.onrender.com/docs
+
+Supported deployment platforms:
 
 - Render
 - Fly.io
@@ -197,15 +216,15 @@ This service can be deployed on:
 - Azure
 - Google Cloud
 
-Docker makes deployment consistent across environments.
+Docker ensures consistent deployment across environments.
 
 ---
 
 ## Example Use Cases
 
-- Resume enhancement
-- Email rewriting
-- Content summarization
+- Resume enhancement backend
+- Email rewriting service
+- Content summarization API
 - Writing assistants
 - Customer support automation
 - SaaS AI integration backend
@@ -220,6 +239,7 @@ Docker makes deployment consistent across environments.
 - OpenAI API
 - Pydantic
 - Uvicorn
+- Render (Cloud Hosting)
 
 ---
 
